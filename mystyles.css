@@ -1,0 +1,107 @@
+body {
+    color: #375a7f;
+}
+
+h1 {
+  font-size: 60px;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+h2 {
+  font-size: 48px;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.green-section {
+  background: #00bc8c;
+}
+
+.black-section {
+  background: #333333;
+}
+
+.blue-section {
+  background: #375a7f;
+  padding: 10px;
+}
+
+.light-gray-section {
+  background-color: #CED4DA
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+
+
+.bgimage {
+    width:100%;
+    height:500px;
+    background: url('img/boston-skyline-light.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.my-center {
+  padding-top: 10%;
+}
+
+  .navbar {
+      height: 120px;
+        
+  }
+
+  .navbar-dark {
+    background-color: #375a7f;
+  }
+
+  .custom-btn {
+    background-color: #F39C12;
+    color: #FFF;
+  }
+
+  .custom-phone {
+    color: #FFF;
+  }
+
+  .empty-space-30 {
+  padding-top: 30px;
+  }
+
+  .empty-space-60 {
+   padding: 60px 0px;
+  }
+
+ .empty-space-bottom-90 {
+    padding-bottom: 90px;
+  }
+
+  
+/* Contact Form */
+
+.form-area {
+background-color: #FAFAFA;
+padding: 10px 40px 60px;
+margin: 10px 0px 60px;
+border: 1px solid #666666;
+}
+
+
+
+
+  /* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+  .custom-phone {
+    display:none;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+  .custom-phone {
+    display:none;
+  }
+ }
